@@ -248,6 +248,36 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+.container{
+  max-width: 970px;
+}
+  #logo {
+    margin-left: 125px;
+  }
+
+  .main-section {
+    max-width: 420px;
+    margin-left:  125px;
+    }
+
+  .sidebar {
+    float: left;
+    margin-left: 40px;
+  }
+
+  .work{ 
+  width:350px; 
+  }
+
+  .auth-image {
+    width: 350px;
+    margin-bottom: 15px;
+  }
+
+nav {
+  margin-right: 125px;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -285,6 +315,59 @@ nav {
 }
 
 @media screen and (max-width: 640px) {
+
+.container{
+  max-width: 640px;
+}
+
+  .main-section {
+    max-width: 590px;
+    margin-left: 15px;
+    }
+
+  .sidebar {
+    float:left;
+    width: 100%;
+    max-width: 590px;
+    margin-left: 15px;
+    margin-right: 25px;
+  }
+
+  .work{ 
+  width:525px; }
+
+  .auth-image {
+    width: 525px;
+    margin-bottom: 10px;
+  }
+
+  #logo {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #masthead{
+    position: static;
+    l
+
+  }
+
+  #main-container {
+    padding-top: 0px;
+  }
+nav {
+  /*margin-right: 25px;
+  margin-top: 5px;
+  padding: 15px 15px 15px 15px;
+  float:left;
+  width: 100%;
+
+}
+nav a { 
+  padding-left: 60px;
+  width: 30%;
+}
+
 
 }
 
